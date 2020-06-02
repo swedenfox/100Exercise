@@ -15,8 +15,7 @@ Consider use dict()
 '''
 def integral(n):
     mydict={}
-    i=0
-    for i in range(n+1):
+    for i in range(1,n+1):
         mydict[i]=i*n
         i+=1
     return mydict
